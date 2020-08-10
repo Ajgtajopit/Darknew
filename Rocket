@@ -439,7 +439,6 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print 42*"\033[1;97m⌯⌯"
 	print "\033[1;98m⊱⋯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⌯⋯⊰"
 	print '\033[1;93mProcess Has Been Completed Press'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
