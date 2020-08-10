@@ -45,7 +45,7 @@ def keluar():
 def acak(b):
     w = 'ahtdzjc'
     d = ''
-    for i in x:
+    for i in w:
         d += '!'+w[random.randint(0,len(w)-1)]+i
     return cetak(d)
 
@@ -66,21 +66,12 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(00000.1)
 
-#### colours ####
-B='\033[1;94m'
-R='\033[1;91m'
-G='\033[1;92m'
-W='\033[1;97m'
-S='\033[1;96m'
-P='\033[1;95m'
-Y='\033[1;93m'
-
 ##### LOGO #####
 logo = """
 \033[1;92m╭═━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━➤
-\033[1;93m║\033[1;91mAUTHOR = 𝐿𝒪𝒱𝐸𝐿𝒴 𝐵𝒪𝒴
-\033[1;93m║\033[1;91mBRAND = Error404 NOT A NAME ITX BRAND🔥🔥
-\033[1;93m║\033[1;91mwhatsapp= +923037335114🔥🔥✔
+\033[1;93m║\033[1;91mAUTHOR = Al-Hafiz
+\033[1;93m║\033[1;91mBRAND = Dark New from Al-Hafiz🔥🔥
+\033[1;93m║\033[1;91mwhatsapp= +6285236270008🔥🔥✔
 \033[1;92m╰═━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━➤
 
 #-titik-#
@@ -105,8 +96,8 @@ def lisensi():
 	os.system('reset')
 	masuk()
 
-CorrectUsername = "Lovely"
-CorrectPassword = "Boy"
+CorrectUsername = "Al-hafiz"
+CorrectPassword = "Hafiz"
 
 loop = 'true'
 while (loop == 'true'):
