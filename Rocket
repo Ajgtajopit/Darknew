@@ -443,7 +443,6 @@ def pilih_super():
 	print '\033[1;93mProcess Has Been Completed Press'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
-\033[1;93m
 ╔══════════════════════╗
 ║░░▀▀████▄▄░░░▄▄████▀▀░║
 ║░░▄██▀▀████▄████▀▀██▄░║
